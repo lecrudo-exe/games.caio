@@ -20,7 +20,7 @@ public class Chao : MonoBehaviour
     }
 
 
-    // Update is called once per frame
+  
     void Update()
     {
         float deslocamento = Mathf.Repeat(this.velocidade * Time.time, tamanhoDaImagemNaCena);
